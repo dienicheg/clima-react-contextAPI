@@ -40,7 +40,6 @@ const ClimaProvider = ({children}) => {
 
             setResultado(clima)   
         } catch (error) {
-            console.log(error)
             setNoResultado(true)
             setResultado({})
         } finally {
